@@ -1,8 +1,9 @@
 .header {
-	background-image: url("../img/mkt.jpg");
+	background-image: url("../img/max.jpg");
 	background-size: cover;
+	background-attachment: fixed;
 	text-align: center;
-	padding: 67px;
+	padding: 15vw;
 }
 
 .header h1 {
@@ -13,46 +14,42 @@
 
 .header h3 {
 	color: white;
-	font-size: 20px;
+	font-size: 25px;
 	margin-top: 70px;
 	text-shadow: 1px 1px 1px #000;
 }
 
 .boton {
-	background-color: #720fc7;
-	margin-left: 35vw;
-	margin-right: 35vw;
-	padding-top: 0.5vw;
-	padding-right: 0.5vw;
-	padding-bottom: 0.5vw;
-	padding-left: 0.5vw;
+	background-color: yellow;
+	margin-left: 25vw;
+	margin-right: 25vw;
+	padding: 0.1vw;
 	border-radius: 10px;
-	margin-top: 40px;
+	margin-top: 4vw;
 	box-shadow: 1px 1px 1px #000;
-	margin-bottom: 35px;
-}
-
-.boton:hover {
-	opacity: 50%;
 }
 
 .textoboton {
-	color: white;
-	margin-top: 10px;
+	color: #65610d;
+	margin-top: 0.5vw;
 	font-family: Monaco;
-	font-size: 17px;
-	text-shadow: 1px 1px 1px #000;
+	font-size: 2vw;
+	font-weight: bold;
+}
+
+.boton:hover {
+	opacity: .8;
 }
 
 .intro {
 	background-color: #20e1a2;
 	text-align: center;
-	padding: 10vw;
+	padding: 8vw;
 }
 
 .intro h2 {
 	color: white;
-	font-size: 45px;
+	font-size: 50px;
 	text-shadow: 1px 1px 1px #000;
 }
 
@@ -62,10 +59,6 @@
 	text-shadow: 1px 1px 1px #000;
 }
 
-.container {
-	padding: 2vw;
-}
-
 .aprende {
 	border-color: #c9c9c9;
 	border-top-style: dashed;
@@ -73,11 +66,12 @@
 	border-width: 2px;
 	text-align: center;
 	padding: 10px;
+	margin: 2vw 4vw 0vw 4vw;
 }
 
 .textoaprende {
-	font-size: 15px;
-	margin-top: 4px;
+	font-size: 18px;
+	margin-top: 0.7vw;
 }
 
 .top {
@@ -89,22 +83,14 @@
 	font-weight: bold;
 }
 
-.nom {
-	width: 100%;
-}
-
-.mail, .tel {
-	margin-top: 20px;
-}
-
-.nom1, .mail1, .tel1 {
+.nom, .mail, .tel {
 	font-size: 14px;
 	color: gray;
 	border-radius: 5px;
 	width: 50%;
 }
 
-.enviar {
+.title, .enviar {
 	margin-top: 0.5vw;
 }
 
@@ -114,17 +100,23 @@
 	padding: 0.3vw;
 }
 
+.enviar:hover {
+	opacity: 0.8;
+}
+
 .empresas {
 	border-color: #c9c9c9;
 	border-top-style: dashed;
 	border-width: 2px;
+	text-align: center;
+	padding: 10px;
+	margin: 2vw 4vw 0vw 4vw;
 }
 
 .textoempresas {
-	text-align: center;
 	font-weight: bold;
 	font-size: 20px;
-	margin-top: 2vw;
+	margin-top: 0.7vw;
 }
 
 .col-md-3 img {
@@ -132,6 +124,7 @@
 }
 
 .queremos {
+	margin-top: 20vw;
 	border-color: #c9c9c9;
 	border-top-style: dashed;
 	border-bottom-style: dashed;
