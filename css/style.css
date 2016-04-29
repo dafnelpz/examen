@@ -21,7 +21,10 @@
 	background-color: #720fc7;
 	margin-left: 40vw;
 	margin-right: 40vw;
-	padding: 5px;
+	padding-top: 0.5vw;
+	padding-right: 0.5vw;
+	padding-bottom: 0.5vw;
+	padding-left: 0.5vw;
 	border-radius: 10px;
 	margin-top: 40px;
 	box-shadow: 1px 1px 1px #000;
@@ -59,7 +62,7 @@
 }
 
 .aprende {
-	border-color: gray;
+	border-color: #c9c9c9;
 	border-top-style: dashed;
 	border-bottom-style: dashed;
 	border-width: 2px;
@@ -69,10 +72,17 @@
 
 .textoaprende {
 	font-size: 15px;
+	margin-top: 4px;
 }
 
+.top {
+	font-size: 20px;
+	font-weight: bold;
+}
 
-
+.title {
+	font-weight: bold;
+}
 
 
 
