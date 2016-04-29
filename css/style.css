@@ -123,13 +123,34 @@
 	font-weight: bold;
 }
 
+.row {
+	margin-top: 20px;
+}
 
+h1 {
+	text-align: center;
+}
 
+img {
+	margin-left: 20vw;
+}
 
+.puno {
+	font-size: 20px;
+	font-weight: bold;
+	color: #0d77d8;
+}
 
+.pdos {
+	font-size: 16px;
+	font-weight: bold;	
+	color: #0d77d8;
+}
 
-
-
+.textoo {
+	text-align: justify;
+	margin-right: 250px;
+}
 
 
 
