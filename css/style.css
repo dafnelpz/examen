@@ -1,5 +1,5 @@
 .header {
-	background-color: #c9c9c9;
+	background-image: url("css/mkt.jpg");
 	text-align: center;
 	padding: 67px;
 }
@@ -29,6 +29,10 @@
 	margin-top: 40px;
 	box-shadow: 1px 1px 1px #000;
 	margin-bottom: 35px;
+}
+
+.boton:hover {
+	opacity: 50%;
 }
 
 .textoboton {
@@ -109,6 +113,23 @@
 	padding: 0.3vw;
 }
 
+.empresas {
+	border-color: #c9c9c9;
+	border-top-style: dashed;
+	border-width: 2px;
+}
+
+.textoempresas {
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 2vw;
+}
+
+.col-md-3 img {
+	height: 5vw;
+}
+
 .queremos {
 	border-color: #c9c9c9;
 	border-top-style: dashed;
@@ -131,7 +152,7 @@ h1 {
 	text-align: center;
 }
 
-img {
+.col-md-4 img {
 	margin-left: 20vw;
 }
 
@@ -149,10 +170,12 @@ img {
 
 .textoo {
 	text-align: justify;
-	margin-right: 250px;
+	padding: 0.5vw;
 }
 
-
+.col-md-1 img {
+	height: 60px;
+}
 
 
 
