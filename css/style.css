@@ -33,7 +33,7 @@
 	color: #65610d;
 	margin-top: 0.5vw;
 	font-family: Monaco;
-	font-size: 2vw;
+	font-size: 3vw;
 	font-weight: bold;
 }
 
@@ -74,12 +74,20 @@
 	margin-top: 0.7vw;
 }
 
+.container {
+	margin-top: 2vw;
+}
+
 .top {
 	font-size: 20px;
 	font-weight: bold;
 }
 
 .title {
+	font-weight: bold;
+}
+
+span {
 	font-weight: bold;
 }
 
@@ -110,7 +118,7 @@
 	border-width: 2px;
 	text-align: center;
 	padding: 10px;
-	margin: 2vw 4vw 0vw 4vw;
+	margin: 2vw 4vw 2vw 4vw;
 }
 
 .textoempresas {
@@ -124,7 +132,7 @@
 }
 
 .queremos {
-	margin-top: 20vw;
+	margin: 6.5vw 4vw 2vw 4vw;;
 	border-color: #c9c9c9;
 	border-top-style: dashed;
 	border-bottom-style: dashed;
@@ -133,13 +141,10 @@
 	text-align: center;
 }
 
-.textoqueremos1 {
+.textoqueremos {
 	font-size: 18px;
 	font-weight: bold;
-}
-
-.row {
-	margin-top: 20px;
+	margin-top: 0.5vw;
 }
 
 h1 {
@@ -148,15 +153,16 @@ h1 {
 
 .col-md-4 img {
 	margin-left: 20vw;
+	border-radius: 50%;
 }
 
-.puno {
+.p1 {
 	font-size: 20px;
 	font-weight: bold;
 	color: #0d77d8;
 }
 
-.pdos {
+.p2 {
 	font-size: 16px;
 	font-weight: bold;	
 	color: #0d77d8;
@@ -167,8 +173,12 @@ h1 {
 	padding: 0.5vw;
 }
 
+.derechos {
+	text-align: center;
+}
+
 .col-md-1 img {
-	height: 60px;
+	height: 40px;
 }
 
 
